@@ -1,6 +1,7 @@
 package com.charles.jph.charlesbcjph.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
@@ -8,6 +9,7 @@ import lombok.ToString;
 @Getter
 @ToString
 @EqualsAndHashCode
+@Builder
 public class User {
 
   private int id;

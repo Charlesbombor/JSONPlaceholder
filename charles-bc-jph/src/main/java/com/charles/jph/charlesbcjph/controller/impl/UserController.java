@@ -9,7 +9,7 @@ import com.charles.jph.charlesbcjph.model.User;
 import com.charles.jph.charlesbcjph.service.UserService;
 
 @RestController
-@RequestMapping(value = "/api/vi")
+@RequestMapping(value = "/api/v1")
 public class UserController implements UserOperation {
 
   @Autowired
